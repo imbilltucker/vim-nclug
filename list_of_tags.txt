@@ -1,0 +1,24 @@
+#Convert Tag text to lower case
+#How to navigate to the tag?
+
+    <a id="A1"  href="#">ONE</a>
+    <a id="A2"  href="#">TWO</a>
+    <a id="A3"  href="#">THREE</a>
+    <a id="A4"  href="#">FOUR</a>
+    <a id="A5"  href="#">FIVE</a>
+    <a id="A6"  href="#">SIX</a>
+    <a id="A7"  href="#">SEVEN</a>
+    <a id="A8"  href="#">EIGHT</a>
+    <a id="A9"  href="#">NINE</a>
+    <a id="A10" href="#">TEN</a>
+    <a id="A11" href="#">ELEVEN</a>
+    <a id="A12" href="#">TWELVE</a>
+    <a id="A13" href="#">THIRTEEN</a>
+    <a id="A14" href="#">FOURTEEN</a>
+    <a id="A15" href="#">FIFTEEN</a>
+    <a id="A16" href="#">SIXTEEN</a>
+    <a id="A17" href="#">SEVENTEEN</a>
+    <a id="A18" href="#">EIGHTEEN</a>
+    <a id="A19" href="#">NINETEEN</a>
+    <a id="A20" href="#">TWENTY</a>
+

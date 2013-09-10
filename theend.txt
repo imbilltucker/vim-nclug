@@ -1,0 +1,9 @@
+#Delete the last word
+#Make it dottable..
+
+the end is nigh
+the end is nigh...
+the end is here!
+the end is where?
+the end is there.
+
