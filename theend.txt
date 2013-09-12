@@ -1,9 +1,11 @@
 #Delete the last word
+# start from the h in 'nigh'
 #Make it dottable..
 
-the end is nigh
-the end is nigh...
-the end is here!
-the end is where?
-the end is there.
+    (number) <command> <motion>
+    end is nigh 
+    the end is nigh...
+    the end is here!
+    the end is where?
+    the end is there.
 
