@@ -1,0 +1,7 @@
+This is an outline of vim .. it should be something to peruse for things you've forgotten or want to practice.
+
+
+
+* Windows
+    - use :vnew to start a new vertical window
+    - use :new to start a new horizontal window
