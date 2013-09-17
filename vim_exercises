@@ -1,6 +1,11 @@
 There should be some vim exercies here.
 
 
+* Buffer motion
+    - Top of window
+    - Bottom of Window
+    - Current line to top of window
+
 * Windows
     - create 4 panes in vim
     - switch focus to all of them
