@@ -1,0 +1,27 @@
+There should be some vim exercies here.
+
+
+* Buffer motion
+    - Top of window
+        - H
+    - Bottom of Window
+        - L
+    - Current line to top of window
+        - z<CR>
+
+* Windows
+    - create 4 panes in vim
+        - :split<CR> :vsplit<CR> Control-Wj :vsplit<CR>
+    - switch focus to all of them
+        - Control-Wh
+        - Control-Wj
+        - Control-Wk
+        - Control-Wl
+    - expand the northwest pane to fill the screen, then return to the 4 panes
+        - ?
+    - expand the southeast pane to fill the screen, then return to the 4 panes
+        - ?
+    ? which side of the screen does a new window get created on?   Is that what you want?
+        - ?
+    ? What pattern of panes do you use in your normal workflow?  Ask why yourself should ever leave vim.
+        - ?
