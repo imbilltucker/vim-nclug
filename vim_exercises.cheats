@@ -1,6 +1,5 @@
 There should be some vim exercies here.
 
-
 * Buffer motion
     - Top of window
         - H
@@ -8,6 +7,10 @@ There should be some vim exercies here.
         - L
     - Current line to top of window
         - z<CR>
+    - Scroll buffer down but leave cursor where it is
+        - Control-y
+    - Scroll buffer up but leave cursor where it is
+        - Control-e
 
 * Windows
     - create 4 panes in vim
