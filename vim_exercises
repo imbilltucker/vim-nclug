@@ -1,10 +1,18 @@
 There should be some vim exercies here.
 
-
 * Buffer motion
     - Top of window
-    - Bottom of Window
+    - Bottom of window
+    - Middle of window
     - Current line to top of window
+    - Scroll buffer down but leave cursor where it is
+
+* Buffer management
+    - Switch to previous buffer
+    - List buffers
+    - Switch to the 5th previous buffer
+    - Switch to a buffer with a file name matching "hello_wor".
+    - Save off session and buffer information
 
 * Windows
     - create 4 panes in vim
@@ -13,3 +21,20 @@ There should be some vim exercies here.
     - expand the southeast pane to fill the screen, then return to the 4 panes
     ? which side of the screen does a new window get created on?   Is that what you want?
     ? What pattern of panes do you use in your normal workflow?  Ask why yourself should ever leave vim.
+
+* Marks
+    - Move to cursor position where mark "a" was placed
+    - Move to line where mark "a" was placed
+    - Start of last paste
+    - End of last paste
+    - Cursor position where last change was made.
+
+* Undo
+    - Undo a change.
+    - Undo an undo.
+    - Switch to how the buffer was 30 seconds ago.
+    - List of change history.
+
+* Commands
+    - Run "make" and move to any errors.
+    - Run a grep and navigate
