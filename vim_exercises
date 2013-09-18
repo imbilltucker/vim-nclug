@@ -6,6 +6,7 @@ There should be some vim exercies here.
     - Middle of window
     - Current line to top of window
     - Scroll buffer down but leave cursor where it is
+    - Scroll buffer up but leave cursor where it is
 
 * Buffer management
     - Switch to previous buffer
