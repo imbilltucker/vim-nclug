@@ -5,3 +5,22 @@ This is an outline of vim .. it should be something to peruse for things you've 
 * Windows
     - use :vnew to start a new vertical window
     - use :new to start a new horizontal window
+    - use :vsplit to get a copy of current file
+    - use :split to have horizontal split with copy of current file
+
+* Navigation
+    - One letter:   h,j,k,l
+    - One word: w,b   e, 
+    - Paragraph: [,]
+    - Page:
+        - ctrl-d  move half a page down
+        - ctrl-f  move page forward
+        - ctrl-b  move page backward
+    - ctrl-e  move up, leave cursor still
+    - ctrl-y  move down, leave cursor still
+
+* Dictionary, spelling
+
+
+* Managing packages
+    - use pathogen: https://github.com/tpope/vim-pathogen
