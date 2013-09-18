@@ -18,10 +18,21 @@ There should be some vim exercies here.
         - Control-Wk
         - Control-Wl
     - expand the northwest pane to fill the screen, then return to the 4 panes
-        - ?
+        - Control-Wh 
+        - Contral-Wj
+        #you should be in the northwest pane
+        - Control-W_
+        - Control-W|
+        #you should have the northwest pane fill the sceen
+        - Control-W=
+        #you should be back to 4 equal panes
+        
     - expand the southeast pane to fill the screen, then return to the 4 panes
         - ?
     ? which side of the screen does a new window get created on?   Is that what you want?
-        - ?
+        - use these in your .vimrc to override the default behavior of :vnew or :new
+         set splitright
+         set splitbelow
+
     ? What pattern of panes do you use in your normal workflow?  Ask why yourself should ever leave vim.
         - ?
