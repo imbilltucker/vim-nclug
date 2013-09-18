@@ -29,10 +29,11 @@ There should be some vim exercies here.
         
     - expand the southeast pane to fill the screen, then return to the 4 panes
         - ?
+
     ? which side of the screen does a new window get created on?   Is that what you want?
         - use these in your .vimrc to override the default behavior of :vnew or :new
          set splitright
          set splitbelow
 
     ? What pattern of panes do you use in your normal workflow?  Ask why yourself should ever leave vim.
-        - ?
+        - if you're feeling sick of control-W use <leader> to map a new command, or some other remap.
