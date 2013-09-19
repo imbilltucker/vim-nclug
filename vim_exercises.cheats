@@ -5,26 +5,67 @@ There should be some vim exercies here.
         - H
     - Bottom of Window
         - L
+    - Middle of window
+        - M
     - Current line to top of window
         - z<CR>
     - Scroll buffer down but leave cursor where it is
         - Control-y
     - Scroll buffer up but leave cursor where it is
-        - Control-e
+        - <C-e>
+
+* Buffer management
+    - Switch to previous buffer
+        - <C-^>
+    - List buffers
+        - :list<CR>    or :ls<CR>
+    - Switch to the 5th previous buffer
+        - 5<C-^>
+    - Switch to a buffer with a file name matching "hello_wor".
+        - :buffer hello_wor<CR>
+    - Save off session and buffer information
+        - :mksession vim-session<CR>
 
 * Windows
     - create 4 panes in vim
         - :split<CR> :vsplit<CR> Control-Wj :vsplit<CR>
     - switch focus to all of them
-        - Control-Wh
-        - Control-Wj
-        - Control-Wk
-        - Control-Wl
-    - expand the northwest pane to fill the screen, then return to the 4 panes
-        - ?
-    - expand the southeast pane to fill the screen, then return to the 4 panes
-        - ?
+        - <C-w>h
+        - <C-w>j
+        - <C-w>k
+        - <C-w>l
+    - Expand one of the 4 to the full screen
+        - <C-w>k<C-w>h<C-_><C-|>
+    - Return to 4 panes
+        - <C-=>
     ? which side of the screen does a new window get created on?   Is that what you want?
         - ?
     ? What pattern of panes do you use in your normal workflow?  Ask why yourself should ever leave vim.
         - ?
+* Marks
+    - Move to cursor position where mark "a" was placed
+        - `a
+    - Move to line where mark "a" was placed
+        - 'a
+    - Start of last paste
+        - `[
+    - End of last paste
+        - `]
+    - Cursor position where last change was made.
+        - `.
+
+* Undo
+    - Undo a change.
+        - .
+    - Undo an undo.
+        - <C-r>.
+    - Switch to how the buffer was 30 seconds ago.
+        - :earlier 30s
+    - List of change history.
+        - :changes<CR>
+
+* Commands
+    - Run "make" and move to any errors.
+        - :make<CR>
+    - Run a grep and navigate
+        - :grep PATTERN FILENAME<CR>
