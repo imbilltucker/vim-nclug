@@ -13,3 +13,7 @@ There should be some vim exercies here.
     - expand the southeast pane to fill the screen, then return to the 4 panes
     ? which side of the screen does a new window get created on?   Is that what you want?
     ? What pattern of panes do you use in your normal workflow?  Ask why yourself should ever leave vim.
+
+* Starting vim
+    - Start vim with no .vimrc settings
+    - Start vim in readonly mode

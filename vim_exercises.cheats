@@ -37,3 +37,9 @@ There should be some vim exercies here.
 
     ? What pattern of panes do you use in your normal workflow?  Ask why yourself should ever leave vim.
         - if you're feeling sick of control-W use <leader> to map a new command, or some other remap.
+
+* Starting vim
+    - Start vim with no .vimrc settings
+        - vim -u None <my file>
+    - Start vim in readonly mode
+        - vim -R <my file>
