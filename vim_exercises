@@ -5,6 +5,9 @@ There should be some vim exercies here.
     - Top of window
     - Bottom of Window
     - Current line to top of window
+    - Keep cursor on current line, but move lines up by 3
+    - Keep cursor on current line, but move lines down by 4
+
 
 * Windows
     - create 4 panes in vim
@@ -17,3 +20,4 @@ There should be some vim exercies here.
 * Starting vim
     - Start vim with no .vimrc settings
     - Start vim in readonly mode
+
