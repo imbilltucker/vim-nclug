@@ -8,6 +8,10 @@ There should be some vim exercies here.
         - L
     - Current line to top of window
         - z<CR>
+    - Keep cursor on current line, but move lines up by 3
+        - <C-e>
+    - Keep cursor on current line, but move lines down by 4
+        - <C-y>
 
 * Windows
     - create 4 panes in vim
