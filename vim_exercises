@@ -21,3 +21,12 @@ There should be some vim exercies here.
     - Start vim with no .vimrc settings
     - Start vim in readonly mode
 
+* Editing
+    - For *some_config.yml*, Change the date to the ides of March on each line.
+        - Search and replace
+        - Macro
+        - Visual selection & Macro
+         
+    - For *list_of_tags.txt*, Change the uppercase numbers to lowercase, e.g. 'ONE' to 'one'
+    - For *variables.js*, Comment out lines 5-10
+    - For *variables.js*, Add semicolon to the end of every line.
