@@ -7,6 +7,9 @@ This is an outline of vim .. it should be something to peruse for things you've 
     - use :new to start a new horizontal window
     - use :vsplit to get a copy of current file
     - use :split to have horizontal split with copy of current file
+    - use ctrl-w & a h,j,k,l direction to change window focus
+    - use ctrl-w | or _ to widen the window with current focus
+    - use ctrl-w = to equalize the window sizes
 
 * Navigation
     - One letter:   h,j,k,l
@@ -19,7 +22,20 @@ This is an outline of vim .. it should be something to peruse for things you've 
     - ctrl-e  move up, leave cursor still
     - ctrl-y  move down, leave cursor still
 
+* Editing
+    - i insert mode before cursor, a insert mode after cursor
+    - I insert mode at start of line, A insert mode at end of line
+    - o insert new line below current line, enter insert mode
+    - O insert new line above current line, enter insert mode
+    - J combine next line with current line
+    - dd delete current line
+    - dw delete word
+    - cw change word, delete current word, enter insert mode
+
 * Dictionary, spelling
+    - set spell    -- turn on highligting of spelling errors
+    - set spell!   -- turn off
+    - set nospell  -- turn off
 
 
 * Managing packages
