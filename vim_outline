@@ -40,3 +40,11 @@ This is an outline of vim .. it should be something to peruse for things you've 
 
 * Managing packages
     - use pathogen: https://github.com/tpope/vim-pathogen
+
+* Creating your own magic:  macros 
+    - .vimrc is the file where all your settings take place and where you can place permanent 'shortcuts'
+    - To permanently set a macro at the letter w, put this in your .vimrc
+        let w='...', e.g. let w='0ibeginAend'  
+        * if you have to use an escape, enter insert mode and <C-p> <escape> will insert the special escape character
+    - instead of using a macro, this can be mapped to a leader key:
+        map <leader>f 0ibegin<ESC>Aend
