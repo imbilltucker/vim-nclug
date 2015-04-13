@@ -4,6 +4,8 @@ There should be some vim exercies here.
 * Buffer motion
     - Top of window
         - H
+    - Middle of Window
+        - M
     - Bottom of Window
         - L
     - Current line to top of window
@@ -32,7 +34,13 @@ There should be some vim exercies here.
         #you should be back to 4 equal panes
         
     - expand the southeast pane to fill the screen, then return to the 4 panes
-        - ?
+        - Control-w3w
+        - Control-W_
+        - Control-W|
+        or 
+        - Control-ww
+        - Control-W_
+        - Control-W|
 
     ? which side of the screen does a new window get created on?   Is that what you want?
         - use these in your .vimrc to override the default behavior of :vnew or :new
@@ -44,6 +52,6 @@ There should be some vim exercies here.
 
 * Starting vim
     - Start vim with no .vimrc settings
-        - vim -u None <my file>
+        - vim -u NONE <my file>
     - Start vim in readonly mode
         - vim -R <my file>
