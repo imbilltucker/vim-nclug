@@ -3,6 +3,7 @@ There should be some vim exercies here.
 
 * Buffer motion
     - Top of window
+    - Middle of Window
     - Bottom of Window
     - Current line to top of window
     - Keep cursor on current line, but move lines up by 3
